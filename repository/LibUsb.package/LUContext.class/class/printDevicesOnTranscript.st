@@ -16,4 +16,12 @@ printDevicesOnTranscript
 						show: (device idVendor printPaddedWith: $0 to: 4 base: 16);
 						show: ':';
 						show: (device idProduct printPaddedWith: $0 to: 4 base: 16);
+						space.
+					[ Transcript
+						show: device manufacturerDescription;
+						space;
+        				show: device productDescription ]
+							on: Error 
+							do: [ ].
+					Transcript
 						cr ] ]
