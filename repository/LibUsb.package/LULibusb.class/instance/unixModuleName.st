@@ -1,6 +1,6 @@
 accessing platform
 unixModuleName
-	#('/usr/lib32/libusb-1.0.so' 
+	#('/lib/x86_64-linux-gnu/libusb-1.0.so.0' 
 	  '/usr/lib/i386-linux-gnu/libusb-1.0.so') 
 	do: [ :path | path asFileReference exists ifTrue: [ ^path ]].
 	
