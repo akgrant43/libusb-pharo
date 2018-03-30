@@ -1,4 +1,4 @@
 accessing structure variables
 micro
 	"This method was automatically generated"
-	^handle unsignedShortAt: 5
+	^handle unsignedShortAt: OFFSET_MICRO

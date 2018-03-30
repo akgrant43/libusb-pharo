@@ -1,6 +1,12 @@
 {
 	"classtraitcomposition" : "LULibusbUser classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		"OFFSET_BDESCRIPTORTYPE",
+		"OFFSET_BLENGTH",
+		"OFFSET_BMATTRIBUTES",
+		"OFFSET_BMAXBURST",
+		"OFFSET_WBYTESPERINTERVAL"
+	],
 	"instvars" : [ ],
 	"name" : "LUSSEndpointCompanionDescriptor",
 	"commentStamp" : "JulienDelplanque 7/6/2016 14:37",

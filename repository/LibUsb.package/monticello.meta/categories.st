@@ -1,8 +1,8 @@
 SystemOrganization addCategory: #LibUsb!
-SystemOrganization addCategory: 'LibUsb-Callback'!
-SystemOrganization addCategory: 'LibUsb-Enumerations'!
-SystemOrganization addCategory: 'LibUsb-Errors'!
-SystemOrganization addCategory: 'LibUsb-Kernel'!
-SystemOrganization addCategory: 'LibUsb-Objects'!
-SystemOrganization addCategory: 'LibUsb-Structures'!
-SystemOrganization addCategory: 'LibUsb-Traits'!
+SystemOrganization addCategory: #'LibUsb-Callback'!
+SystemOrganization addCategory: #'LibUsb-Enumerations'!
+SystemOrganization addCategory: #'LibUsb-Errors'!
+SystemOrganization addCategory: #'LibUsb-Kernel'!
+SystemOrganization addCategory: #'LibUsb-Objects'!
+SystemOrganization addCategory: #'LibUsb-Structures'!
+SystemOrganization addCategory: #'LibUsb-Traits'!

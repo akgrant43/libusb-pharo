@@ -1,4 +1,4 @@
 accessing structure variables
 nano: anObject
 	"This method was automatically generated"
-	handle unsignedShortAt: 7 put: anObject
+	handle unsignedShortAt: OFFSET_NANO put: anObject

@@ -1,4 +1,4 @@
 accessing structure variables
 rc: anObject
 	"This method was automatically generated"
-	handle pointerAt: 9 put: anObject getHandle.
+	handle pointerAt: OFFSET_RC put: anObject getHandle.

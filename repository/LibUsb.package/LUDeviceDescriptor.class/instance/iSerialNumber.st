@@ -1,4 +1,4 @@
 accessing structure variables
 iSerialNumber
 	"This method was automatically generated"
-	^handle unsignedByteAt: 17
+	^handle unsignedByteAt: OFFSET_ISERIALNUMBER

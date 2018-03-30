@@ -1,6 +1,12 @@
 {
 	"classtraitcomposition" : "LULibusbUser classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		"OFFSET_BDESCRIPTORTYPE",
+		"OFFSET_BLENGTH",
+		"OFFSET_BNUMDEVICECAPS",
+		"OFFSET_DEV_CAPABILITY",
+		"OFFSET_WTOTALLENGTH"
+	],
 	"instvars" : [ ],
 	"name" : "LUBOSDescriptor",
 	"commentStamp" : "JulienDelplanque 7/6/2016 15:08",

@@ -1,6 +1,11 @@
 {
 	"classtraitcomposition" : "LULibusbUser classTrait + LUErrorUser classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		"OFFSET_BDESCRIPTORTYPE",
+		"OFFSET_BDEVCAPABILITYTYPE",
+		"OFFSET_BLENGTH",
+		"OFFSET_DEV_CAPABILITY_DATA"
+	],
 	"instvars" : [ ],
 	"name" : "LUBOSDevCapabilityDescriptor",
 	"commentStamp" : "JulienDelplanque 7/6/2016 15:11",

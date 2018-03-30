@@ -4,7 +4,12 @@
 	"category" : "LibUsb-Structures",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"OFFSET_BDESCRIPTORTYPE",
+		"OFFSET_BDEVCAPABILITYTYPE",
+		"OFFSET_BLENGTH",
+		"OFFSET_BMATTRIBUTES"
+	],
 	"instvars" : [ ],
 	"name" : "LUUsb20ExtensionDescriptor",
 	"type" : "normal"

@@ -1,4 +1,4 @@
 accessing structure variables
 idVendor: anObject
 	"This method was automatically generated"
-	handle unsignedShortAt: 9 put: anObject
+	handle unsignedShortAt: OFFSET_IDVENDOR put: anObject

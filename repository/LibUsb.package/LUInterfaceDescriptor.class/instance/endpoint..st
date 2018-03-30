@@ -1,4 +1,4 @@
 accessing structure variables
 endpoint: anObject
 	"This method was automatically generated"
-	handle pointerAt: 13 put: anObject getHandle.
+	handle pointerAt: OFFSET_ENDPOINT put: anObject getHandle.

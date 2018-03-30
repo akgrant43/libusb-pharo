@@ -1,6 +1,17 @@
 {
 	"classtraitcomposition" : "LULibusbUser classTrait + LUErrorUser classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		"OFFSET_BDESCRIPTORTYPE",
+		"OFFSET_BENDPOINTADDRESS",
+		"OFFSET_BINTERVAL",
+		"OFFSET_BLENGTH",
+		"OFFSET_BMATTRIBUTES",
+		"OFFSET_BREFRESH",
+		"OFFSET_BSYNCHADDRESS",
+		"OFFSET_EXTRA",
+		"OFFSET_EXTRA_LENGTH",
+		"OFFSET_WMAXPACKETSIZE"
+	],
 	"instvars" : [ ],
 	"name" : "LUEndpointDescriptor",
 	"commentStamp" : "JulienDelplanque 7/6/2016 10:57",

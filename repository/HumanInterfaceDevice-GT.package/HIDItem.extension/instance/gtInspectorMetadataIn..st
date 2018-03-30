@@ -7,6 +7,6 @@ gtInspectorMetadataIn: composite
 			'Size' -> self size.
 			'Type' -> self type.
 			'Tag' -> self tag } ];
-		column: 'Metadata name' evaluated: [ :array| array head ];
-		column: 'Value' evaluated: [ :array | array tail ];
+		column: 'Metadata name' evaluated: [ :assoc | assoc key ];
+		column: 'Value' evaluated: [ :assoc | assoc value ];
 		yourself

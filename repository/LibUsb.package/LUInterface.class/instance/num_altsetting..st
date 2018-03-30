@@ -1,4 +1,4 @@
 accessing structure variables
 num_altsetting: anObject
 	"This method was automatically generated"
-	handle signedLongAt: 5 put: anObject
+	handle signedLongAt: OFFSET_NUM_ALTSETTING put: anObject
