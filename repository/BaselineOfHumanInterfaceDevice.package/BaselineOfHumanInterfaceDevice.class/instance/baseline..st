@@ -5,6 +5,7 @@ baseline: spec
 		for: #common
 		do: [ 
 			spec
+				package: 'LibUsb';
 				package: 'HumanInterfaceDevice';
 				package: 'HumanInterfaceDevice-Tests' with: [ spec requires: 'HumanInterfaceDevice' ];
 				package: 'HumanInterfaceDevice-GT' with: [ spec requires: 'HumanInterfaceDevice' ];
@@ -13,8 +14,6 @@ baseline: spec
 					spec
 						requires: 'HumanInterfaceDevice';
 						requires: 'LibUsb' ].
-			spec baseline: 'LibUsb' with: [
-    				spec repository: 'github://tamerescrl/libusb-pharo/repository' ].
 			spec
 				group: 'core' with: #('HumanInterfaceDevice' 'HumanInterfaceDevice-GT');
 				group: 'simulated-backend' with: #('core' 'HumanInterfaceDevice-SimulatedBackends');
