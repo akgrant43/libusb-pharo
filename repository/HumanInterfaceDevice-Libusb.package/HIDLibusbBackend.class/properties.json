@@ -1,15 +1,14 @@
 {
-	"category" : "HumanInterfaceDevice-Libusb",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 7/15/2016 11:48",
+	"super" : "HIDBackend",
+	"category" : "HumanInterfaceDevice-Libusb",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"libusbContext",
-		"libusbDeviceHandle" ],
+		"libusbDeviceHandle"
+	],
 	"name" : "HIDLibusbBackend",
-	"pools" : [
-		 ],
-	"super" : "HIDBackend",
-	"type" : "normal" }
+	"type" : "normal"
+}

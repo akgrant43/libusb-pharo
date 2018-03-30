@@ -1,7 +1,9 @@
 standard requests
 getDescriptorWithType: descriptorType index: descriptorIndex
 	| data byteSent bytes |
-	data := self externalCharArrayOfSize: 256.
+	"According to http://www.usb.org/developers/hidpage/HID1_11.pdf section 5.3
+	the generic item can be up to 259 bytes long.  Add 1 for safety (and make it a round number)"
+	data := self externalCharArrayOfSize: 260.
 	data autoRelease.
 	byteSent:= libusbDeviceHandle
 					controlTransferWithRequestType: (LUEndpointDirectionEnumeration LIBUSB_ENDPOINT_IN value
